@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: postgres
-        image: nimc-db:latest
+        image: successtech/nimc-db:latest
         ports:
         - containerPort: 5432
         env:
