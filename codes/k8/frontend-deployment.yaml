@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: successtech/bbf4:latest
+        image: successtech/nimc-frontend:latest
         ports:
         - containerPort: 80
         readinessProbe:
